@@ -1,0 +1,24 @@
+.container {
+  background-color: rgba(255, 0, 0, 0.1);
+  border-left: 4px solid #ff4444;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 1.2rem;
+}
+
+.content {
+  flex: 1;
+}
+
+.details {
+  font-size: 0.9rem;
+  color: #ff9999;
+  margin-top: 5px;
+}
