@@ -70,6 +70,7 @@ NEXT_PUBLIC_NASA_INSIGHT_API_URL=https://api.nasa.gov/insight_weather/
 
 ## Recent Improvements
 
+### Phase 1 (Completed)
 - Replaced web scraping with NASA API integration
 - Extracted inline styles to CSS Modules
 - Created reusable components
@@ -77,3 +78,39 @@ NEXT_PUBLIC_NASA_INSIGHT_API_URL=https://api.nasa.gov/insight_weather/
 - Implemented client-side caching
 - Enhanced data visualization with Recharts
 - Added proper error handling and fallbacks
+
+### Phase 2 (Completed)
+- **React Query Integration**: Better data fetching with automatic caching and retries
+- **Service Worker**: Offline support with background sync
+- **User Preferences**: Customizable themes, units, and settings
+- **Animated Weather Icons**: Dynamic SVG icons based on conditions
+- **Data Export**: Export weather data as JSON or CSV
+- **Accessibility**: Full ARIA labels and semantic HTML
+- **Performance**: Optimized rendering with React Query
+
+## Key Features
+
+### Data Management
+- React Query for server state management
+- Service Worker for offline functionality
+- localStorage for user preferences
+- Automatic background sync
+
+### User Experience
+- Theme toggle (dark/light)
+- Temperature units (Celsius/Fahrenheit)
+- Wind speed units (m/s, mph, km/h)
+- Export data functionality
+- Offline support with cached data
+- Update notifications
+
+### Custom Hooks
+- `useWeatherData`: Fetch current and historical weather
+- `usePreferences`: Manage user settings
+- `useServiceWorker`: Handle offline/online states
+
+### Accessibility
+- Semantic HTML with proper landmarks
+- ARIA labels for all interactive elements
+- Keyboard navigation support
+- Screen reader optimized
